@@ -1,0 +1,30 @@
+Appendix: Variable definitions,
+Note: All variables are NOT winsorized.,
+Variable name,Definition
+,
+Basic information,
+stkcd,Stock code
+stknme,Stock name
+conme,Company name
+month,Year-month
+,
+Individual stock returns,
+retrf,Monthly stock return less risk-free rate (%)
+,
+Carhart four factors,
+mktrf,Excess Return on the Market  (%)
+smb,Small Minus Big  (%)
+hml,High Minus Low  (%)
+umd,Momentum  (%)
+,
+Firm characteristics,
+size,"Firm size, defined as the natural logarithm of the market value of equity"
+bm,"Book-to-market ratio, defined as the book value of equity scaled by the market value of equity"
+return12,Buy-and-hold stock returns from twelve month ago to the last month
+roa,"Return on assets, defined as the quarterly operating income scaled by lagged assets"
+lev,"Leverage, defined as the long-term debt plus short-term borrowing scaled by total assets"
+ppe,"Property, plant and equipment scaled by total assets"
+intang,Intangible assets scaled by total assets
+numanalyst,Number of analysts following the firm
+instown,Percentage of tradable shares held by institutional investors  (%)
+mv,Market value of tradable shares
